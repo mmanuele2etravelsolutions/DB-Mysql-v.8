@@ -2,8 +2,8 @@
 
 sudo docker run -d \
   --name mysql_stg_metrics \
-  -e MYSQL_ROOT_PASSWORD=ejqbzVr8LhQjFn8 \
-  -e MYSQL_DATABASE=stg-metrics-tije \
+  -e MYSQL_ROOT_PASSWORD=AlGo!@# \
+  -e MYSQL_DATABASE=ALGO \
   -e MYSQL_USER=XXXXXXXXXXXXXX \
   -e MYSQL_PASSWORD=XXXXXXXXXXXX \
   -p 3306:3306 \
