@@ -1,0 +1,11 @@
+-- Crear la base de datos
+CREATE DATABASE `api-X` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- Crear el usuario y asignarle contraseña
+CREATE USER 'api-X'@'%' IDENTIFIED BY '0r8B76hcSa8qA#';
+
+-- Darle todos los permisos sobre esa base de datos
+GRANT ALL PRIVILEGES ON `api-X`.* TO 'api-X'@'%';
+
+-- Aplicar los cambios
+FLUSH PRIVILEGES;
